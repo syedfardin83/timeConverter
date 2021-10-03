@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>Time Converter</title>
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        background-color: black;
+        color: white;
+      }
+
+      #sec {
+        background-color: beige;
+        font-size: larger;
+        padding: 5px;
+        border: black solid 2px;
+        border-radius: 6px;
+      }
+
+      #btn1 {
+        width: 100px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        font-family: 'Poppins', sans-serif;
+        border: 2px white solid;
+        font-size: large;
+        margin-top: 17px;
+      }
+
+      #outputDisplay {
+        font-size: 25px;
+        margin-top: -17px;
+      }
+
+      .waterMark {
+        /* float: ; */
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="div1">
+      <h2>Enter the time in seconds to convert it into hrs,min and sec</h2>
+      <input id="sec" placeholder="Enter the time in seconds" />
+      seconds
+      <br />
+      <button id="btn1" onclick="fn1()">Enter</button>
+    </div>
+    <br />
+    <hr />
+    <h2>Output</h2>
+    <div id="outputDisplay">Time:</div>
+    <!-- 
+    <footer>
+
+        <p class="waterMark">Programmed by Syed Fardin</p>    
+    </footer> -->
+  </body>
+  <script src="index.js"></script>
+</html>
